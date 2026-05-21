@@ -6,23 +6,61 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AURALAND</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
+<header class="text-center text-white" style="background-color: forestgreen">
     <h1>AURALAND</h1>
     <p>El mejor server de Minecraft</p>
     <p>10000% de AURA al jugar</p>
 </header>
 
-<main>
+<main class="container" content="center">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="modos.html"><img src="assets/img/vegetta.png" class="d-block w-100" width="35%"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>MODOS DE JUEGO</h5>
+                    <p>En este apartado podran encontrar los modos de juego</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="usarios.html"><img src="assets/img/usu.jpg" class="d-block w-100" width="35%"></a>
+                <div class="carousel-caption d-none d-md-block text-black">
+                    <h5>USUARIOS DEL SERVER</h5>
+                    <p>Aquí podran encontrar a los creadores y usuarios del server</p>
+                </div>
+            </div>
 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 </main>
 
-<footer>
+<footer style="background-color: saddlebrown;" class="text-center text-white py-4 sticky-bottom">
+    <div class="container">
+        <p class="mb-0">Admins</p>
+        <p class="mb-0">El Pepe y Weyito</p>
+        <p class="pb-0">&copy; 2023 VetCare. Todos los derechos reservados.</p>
+    </div>
 
 </footer>
+
+<script src="assets/js/bootstrap.js"></script>
 
 </body>
 
