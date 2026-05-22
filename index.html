@@ -9,53 +9,91 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100" style="background-color: #13653f">
 
 <header class="text-center text-white" style="background-color: forestgreen">
     <h1>AURALAND</h1>
-    <p>El mejor server de Minecraft</p>
-    <p>10000% de AURA al jugar</p>
+    <h3>El mejor server de Minecraft</h3>
+    <h4>10000% de AURA al jugar</h4>
 </header>
 
-<main class="container" content="center">
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<main class="container my-5 flex-grow-1 ">
+    <div class="row justify-content-center mb-5">
+        <div class="card h-100 shadow-sm border-0 text-center p-3 col-md-4">
+            <h4 class="text-dark">UNETE AL MEJOR SERVIDOR</h4>
+            <h5 class="text-dark">Java: ca2.holi.gg.11110</h5>
+            <h5 class="text-dark">Bedrock: ip: ca2.holi.gg puerto:11110</h5>
+            <h5 class="text-dark">VERSION: 26.1.2</h5>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="modos.html"><img src="assets/img/vegetta.png" class="d-block w-100" width="35%"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>MODOS DE JUEGO</h5>
-                    <p>En este apartado podran encontrar los modos de juego</p>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-5">
+
+            <div id="carouselExampleCaptions" class="carousel slide shadow rounded overflow-hidden carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <a href="usarios.html"><img src="assets/img/usu.jpg" class="d-block w-100" width="35%"></a>
-                <div class="carousel-caption d-none d-md-block text-black">
-                    <h5>USUARIOS DEL SERVER</h5>
-                    <p>Aquí podran encontrar a los creadores y usuarios del server</p>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="modos.html">
+                            <img src="assets/img/vegetta.png" class="d-block w-100" alt="Modos de juego">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2 text-white">
+                            <h5 class="fw-bold m-0">MODOS DE JUEGO</h5>
+                            <p class="small m-0">Explora los modos que tenemos</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="usarios.html">
+                            <img src="assets/img/usu.jpg" class="d-block w-100" alt="Usuarios del server">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2 text-white">
+                            <h5 class="fw-bold m-0">USUARIOS</h5>
+                            <p class="small m-0">Conoce a la comunidad y creadores del server</p>
+                        </div>
+                    </div>
                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
             </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    </div>
+    <div class="row mt-5 g-4 justify-content-center">
+        <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm border-0 text-center">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-success">MODO SURVIVAL</h5>
+                    <p class="card-text text-muted">Protege tus tierras, comercia con otros jugadores y construye lo que te imaginas</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm border-0 text-center">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-danger">EVENTOS SEMANALES</h5>
+                    <p class="card-text text-muted">Organizados por El Pepe y Weyito. Gana y obten puntos para mejorar de nivel!!</p>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
-<footer style="background-color: saddlebrown;" class="text-center text-white py-4 sticky-bottom">
+<footer style="background-color: saddlebrown;" class="text-center text-white py-4">
     <div class="container">
         <p class="mb-0">Admins</p>
         <p class="mb-0">El Pepe y Weyito</p>
-        <p class="pb-0">&copy; 2023 VetCare. Todos los derechos reservados.</p>
+        <p >&copy; 2026 AURALAND. Todos los derechos reservados.</p>
     </div>
 
 </footer>
@@ -63,5 +101,4 @@
 <script src="assets/js/bootstrap.js"></script>
 
 </body>
-
 </html>
