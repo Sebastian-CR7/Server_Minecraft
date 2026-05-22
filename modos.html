@@ -1,10 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Modos de juego</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODOS DE JUEGO</title>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+        .card{
+            transition:.3s;
+            border:none;
+        }
+
+        .card:hover{
+            transform:scale(1.05);
+        }
+
+        .card img{
+            height:180px;
+            object-fit:cover;
+        }
+    </style>
+
 </head>
-<body>
+
+<body class="d-flex flex-column min-vh-100" style="background-color:#13653f;">
+
+<header class="text-center text-white py-3" style="background-color:forestgreen">
+    <h1>MODOS DE JUEGO</h1>
+</header>
+
+<main class="container mt-4 flex-grow-1">
+
+    <div class="row g-3 justify-content-center">
+        <div class="text-center text-white mb-4">
+            <h4>Selecciona el modo de tu preferencia</h4>
+            <p>Haz clic en cualquier modo de juego para entrar</p>
+        </div>
+
+
+        <div class="col-5 col-md-2">
+            <a href="index.html" class="text-decoration-none">
+                <div class="card bg-dark text-white shadow text-center">
+                    <img src="assets/img/supervi.jpg" class="card-img-top">
+
+                    <div class="card-body p-2">
+                        <h6 class="m-0">Supervivencia</h6>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="col-5 col-md-2">
+            <a href="modos.html" class="text-decoration-none">
+                <div class="card bg-dark text-white shadow text-center">
+                    <img src="assets/img/modbed.jpg" class="card-img-top">
+
+                    <div class="card-body p-2">
+                        <h6 class="m-0">Bed Wars</h6>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="col-5 col-md-2">
+            <a href="usuarios.html" class="text-decoration-none">
+                <div class="card bg-dark text-white shadow text-center">
+                    <img src="assets/img/sky.jpg" class="card-img-top">
+
+                    <div class="card-body p-2">
+                        <h6 class="m-0">Sky Wars</h6>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</main>
+
+<footer style="background-color:saddlebrown;" class="text-center text-white py-3">
+    <div class="container">
+        <p class="mb-0">Admins</p>
+        <p class="mb-0">El Pepe y Weyito</p>
+        <p>&copy; 2026 AURALAND. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="assets/js/bootstrap.js"></script>
 
 </body>
 </html>
