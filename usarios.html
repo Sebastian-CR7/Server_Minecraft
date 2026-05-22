@@ -1,10 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Usuarios del servidor</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>USUARIOS</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100" style="background-color: #13653f">
+
+<header class="text-center text-white py-4" style="background-color: forestgreen">
+    <h1>AURALAND</h1>
+    <h3>El mejor server de Minecraft</h3>
+    <h4>10000% de AURA al jugar</h4>
+</header>
+
+<main class="container my-5 flex-grow-1">
+
+    <div class="row justify-content-center mb-5">
+        <div class="col-12 col-md-5">
+
+            <div id="carouselExampleCaptions" class="carousel slide shadow rounded overflow-hidden carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="index.html">
+                            <img src="assets/img/inicio.jpg" class="d-block w-100" alt="Modos de juego">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2 text-white">
+                            <h5 class="fw-bold m-0">INICIO</h5>
+                            <p class="small m-0">La pagina principal de AURALAND</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="modos.html">
+                            <img src="assets/img/vegetta.png" class="d-block w-100" alt="Usuarios del server">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2 text-white">
+                            <h5 class="fw-bold m-0">MODOS DE JUEGO</h5>
+                            <p class="small m-0">Explora los modos que tenemos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center g-4 mt-2 mb-5">
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm border-0 text-center p-2">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-success mb-4">RANKING SEMANAL</h5>
+
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <img src="assets/img/skinfargan.jpg" class="rounded-circle border border-2 border-success me-2" width="32" height="32" alt="Skin ixayayin">
+                        <span class="fs-5 fw-semibold text-dark">ixayayin</span>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <img src="assets/img/skinrubi.jpg" class="rounded-circle border border-2 border-success me-2" width="32" height="32" alt="Skin Camelly4g">
+                        <span class="fs-5 fw-semibold text-dark">Camelly4g</span>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/img/skinstaxx.jpg" class="rounded-circle border border-2 border-success me-2" width="32" height="32" alt="Skin Chavecin67">
+                        <span class="fs-5 fw-semibold text-dark">Chavecin67</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card h-100 shadow-sm border-0 text-center p-2">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold text-success mb-4">CREADORES</h5>
+
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <img src="assets/img/skinwilly.jpg" class="rounded-circle border border-2 border-success me-2" width="32" height="32" alt="Skin El Pepe">
+                        <span class="fs-5 fw-semibold text-dark">El Pepe</span>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/img/skinvege.jpg" class="rounded-circle border border-2 border-success me-2" width="32" height="32" alt="Skin Weyito">
+                        <span class="fs-5 fw-semibold text-dark">Weyito</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer style="background-color: saddlebrown;" class="text-center text-white py-4">
+    <div class="container">
+        <p class="mb-0">Admins</p>
+        <p class="mb-0">El Pepe y Weyito</p>
+        <p class="mb-0">&copy; 2026 AURALAND. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="assets/js/bootstrap.js"></script>
 
 </body>
 </html>
